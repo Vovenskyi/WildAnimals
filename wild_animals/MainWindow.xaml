@@ -11,6 +11,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -34,6 +35,10 @@
                        Но иногда они могут вести себя как большие кошки, которыми, по сути, и являются.Тигры относятся к роду пантер наряду со львом, леопардом и ягуаром. 
                        Популяция во всем мире насчитывает до 6500 особей. 
                        В нее входит несколько подвидов тигра." TextWrapping="Wrap"/>
+        </StackPanel>
+        <StackPanel Name="Zebra" Grid.Column="3" Grid.RowSpan="2" Margin="10">
+            <Image Source="/Pictures/zebra.jpg"  Height="250"/>
+            <TextBlock Text="Зебра - подрод рода лошади, включающий виды бурчеллова зебра (Equus quagga), зебра Греви (Equus grevyi) и горная зебра (Equus zebra)." TextWrapping="Wrap"/>
         </StackPanel>
     </Grid>
 </Window>
